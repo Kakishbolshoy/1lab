@@ -20,12 +20,12 @@ int main()
     printf("Enter x -> ");
     scanf("%f", &x);
     if ((a+b)<x)
-        {printf((a+b/x));
-        return 0;}
+        printf((a+b/x));
+        return 0;
     else
         if ((a+b)>x)
-            {printf (x/(a+b));
-            return 0;}
+            printf (x/(a+b));
+            return 0;
         else
             printf (b/x);
             return 0;
